@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><title>qy film</title>
+<style>
+/* engine/ 由 render.py 内置的小服务器挂到引擎目录（预览：python render.py <工程> --serve，浏览器开 /?play 或 /?fit&t=12） */
+@font-face{font-family:"QY Sans"; src:url("engine/fonts/NotoSansSC-VF.ttf"); font-weight:100 900}
+@font-face{font-family:"QY Round";src:url("engine/fonts/ZCOOLKuaiLe-Regular.ttf")}
+@font-face{font-family:"QY Hand"; src:url("engine/fonts/LXGWWenKai-Regular.ttf")}
+@font-face{font-family:"QY Serif";src:url("engine/fonts/Lora.ttf"); font-weight:400 700; font-style:normal}
+@font-face{font-family:"QY Serif";src:url("engine/fonts/Lora-Italic.ttf"); font-weight:400 700; font-style:italic}
+html,body{margin:0;background:#111;overflow:hidden}
+</style></head>
+<body>
+<script src="engine/qy.js"></script>
+<script src="engine/kit.js"></script>
+<script src="engine/chars.js"></script>
+<!-- 工程目录里的 tokens.json（{theme:{sea:{…}}, motion:{…}}）由 Q.film 自动读进来，不用在这里引 -->
+<script src="film.js"></script>
+</body></html>

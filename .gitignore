@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+node_modules/
+*_bak/
+*.pre_*
+measure/
+renders/

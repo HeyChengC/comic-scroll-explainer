@@ -1,0 +1,11 @@
+{
+ "film": {
+  "_note": "每条片自己的色板。新工程拷 tokens.json 后在这里填：accent = 第二强调色（比喻物的颜色，卡 §4），爆字/圈/下划线/箭头默认用它。留 null = 用主题自带的红。blue 系列留 null = AI 蓝不变。",
+  "accent": "#d8b44a",
+  "accent_dark": "#a88428",
+  "accent_light": "#ead9a0",
+  "blue": null,
+  "blue_dark": null,
+  "blue_light": null
+ }
+}
